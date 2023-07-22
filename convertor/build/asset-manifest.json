@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/curceconvertor/static/css/main.c2eb90e7.css",
+    "main.js": "/curceconvertor/static/js/main.5c9934fb.js",
+    "static/js/787.e17d9f4d.chunk.js": "/curceconvertor/static/js/787.e17d9f4d.chunk.js",
+    "index.html": "/curceconvertor/index.html",
+    "main.c2eb90e7.css.map": "/curceconvertor/static/css/main.c2eb90e7.css.map",
+    "main.5c9934fb.js.map": "/curceconvertor/static/js/main.5c9934fb.js.map",
+    "787.e17d9f4d.chunk.js.map": "/curceconvertor/static/js/787.e17d9f4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2eb90e7.css",
+    "static/js/main.5c9934fb.js"
+  ]
+}

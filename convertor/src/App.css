@@ -1,0 +1,100 @@
+/* App.css */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-right: 400px;  
+padding-left: 400px;
+  background: linear-gradient(0deg, rgba(0, 162, 255, 1), rgba(0, 225, 255, 1));
+}
+.paper {
+  width: 406px;
+  height: 200px;
+  margin: auto;
+  margin-top: 160px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.paper > h3 {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-shadow: 0px 1px 5px black;
+}
+.currencies {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.currencies li {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+
+.currencies li.active {
+  background-color: #ccc;
+}
+
+input {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.block > .MuiFormControl-root {
+  margin-left: 10px;
+}
+
+.MuiFormControl-root {
+  width: 120px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
